@@ -19,6 +19,7 @@ import com.klef.devops.service.VoterServiceImpl;
 
 @RestController
 @CrossOrigin(origins ="*")
+@RequestMapping("/voter")
 public class VoterController {
 	
 	@Autowired
